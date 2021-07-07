@@ -7,12 +7,8 @@ export default function Home() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="room-table">
-          <Deck title="Table" cards={table_cards} />
-        </div>
-        <div className="room-table">
-          <Deck title="Hand" cards={hand_cards} />
-        </div>
+        <Deck title="Table" cards={table_cards} />
+        <Deck title="Hand" cards={hand_cards} />
       </header>
     </div>
   )
